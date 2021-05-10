@@ -39,9 +39,9 @@ body{
 
 
 .dp_img{
-	/*border-radius: 50%;*/
+	border-radius: 50%;
 	height: 300px;
-	width: 250px;
+	width: auto;
 }
 
 .name_designation, .contact, .hobbies, .Certificates{
