@@ -92,7 +92,7 @@ p.big {
 }
 
 
-@media  screen and (max-width: 1000px) { /* single column cv for mobile and tablets with screen width below 1000px */
+@media  screen and (max-width: 768px) { /* single column cv for mobile and tablets with screen width below 1000px */
 .main_container_flex{
 	
 	flex-direction: column;
