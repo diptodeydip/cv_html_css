@@ -53,6 +53,7 @@ body{
 	margin: 20px;
 }
 
+
 .right_section_flex{  /*flex child and also parent*/
 	flex: 7;
 
@@ -64,7 +65,22 @@ body{
 	flex-wrap: wrap;
 
 	padding: 10px;
-	padding-top: 30px;
 	background-color: #ffffff;
 
+}
+
+.left_aligned_header{
+	text-align: left;
+}
+
+a {
+  color: blue;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+p.big {
+  line-height: 1.5;
 }
