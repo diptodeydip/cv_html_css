@@ -2,7 +2,10 @@
 body{
 	background-color: #778899;
 	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
 }
+
+
 
 .main_container_flex{ /*flex parent*/
 	display: flex;
@@ -34,6 +37,7 @@ body{
 }
 
 
+
 .dp_img{
 	border-radius: 50%;
 	height: 200px;
@@ -45,7 +49,7 @@ body{
 }
 
 
-.hobby_point, .Certificates_point{
+.hobby_point, .Certificates_point, .skill_point, .activity_point{
 	text-align: left;
 }
 
@@ -69,9 +73,11 @@ body{
 
 }
 
-.left_aligned_header{
-	text-align: left;
+.centered_div_in_mobile_device{
+	text-align: left; /*left aligned in desktop*/
 }
+
+
 
 a {
   color: blue;
@@ -83,4 +89,33 @@ li{
 
 p.big {
   line-height: 1.5;
+}
+
+
+@media  screen and (max-width: 1000px) { /* single column cv for mobile and tablets with screen width below 1000px */
+.main_container_flex{
+	
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+
+}
+
+.right_section_flex{  /*flex child and also parent*/
+
+
+	align-items:center;
+	align-content: center;
+
+}
+
+
+.centered_div_in_mobile_device{
+	text-align: center;
+}
+
+.skill_point, .activity_point{
+	text-align: left;
+}
+
 }
